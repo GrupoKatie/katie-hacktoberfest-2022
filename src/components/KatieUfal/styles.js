@@ -1,6 +1,6 @@
-import styled from 'styled-components/macro';
-import { fonts } from '../../assets/styles/typography';
-import { Subtitle } from '../../shared-ui/Typography';
+import styled from "styled-components/macro";
+import { fonts } from "../../assets/styles/typography";
+import { Subtitle } from "../../shared-ui/Typography";
 
 export const Statement = styled(Subtitle)`
   max-width: 1020px;

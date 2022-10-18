@@ -1,6 +1,6 @@
-import styled from 'styled-components/macro';
-import { fonts } from '../../assets/styles/typography';
-import { Subtitle, Text } from '../../shared-ui/Typography';
+import styled from "styled-components/macro";
+import { fonts } from "../../assets/styles/typography";
+import { Subtitle, Text } from "../../shared-ui/Typography";
 
 export const Top = styled.img`
   padding: 8rem 0 0 0;

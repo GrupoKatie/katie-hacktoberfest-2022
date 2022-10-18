@@ -1,6 +1,6 @@
-import styled from 'styled-components/macro';
-import { colors } from '../../assets/styles/colors';
-import { fonts } from '../../assets/styles/typography';
+import styled from "styled-components/macro";
+import { colors } from "../../assets/styles/colors";
+import { fonts } from "../../assets/styles/typography";
 
 export const TeamContainer = styled.div`
   display: flex;

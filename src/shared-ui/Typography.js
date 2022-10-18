@@ -1,6 +1,6 @@
-import styled from 'styled-components/macro';
-import { fonts } from '../assets/styles/typography';
-import { colors } from '../assets/styles/colors';
+import styled from "styled-components/macro";
+import { fonts } from "../assets/styles/typography";
+import { colors } from "../assets/styles/colors";
 
 export const Subtitle = styled.h2`
   width: 100%;
@@ -117,4 +117,4 @@ export const Pink = styled.span`
 
 export const Content = styled(Container)`
   padding: 3rem 0 0 0;
-`; 
+`;

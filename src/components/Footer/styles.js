@@ -1,5 +1,5 @@
-import styled from 'styled-components/macro';
-import { colors } from '../../assets/styles/colors';
+import styled from "styled-components/macro";
+import { colors } from "../../assets/styles/colors";
 
 export const Tag = styled.footer`
   display: flex;

@@ -1,6 +1,6 @@
-import React from 'react';
-import LogoKatie from '../../assets/images/logo-katie-2.png';
-import { Section } from '../../shared-ui/Layout';
+import React from "react";
+import LogoKatie from "../../assets/images/logo-katie-2.png";
+import { Section } from "../../shared-ui/Layout";
 // import { Pink, Social } from '../../shared-ui/Typography';
 import {
   Statement,
@@ -10,7 +10,7 @@ import {
   PinkStrong,
   Article,
   Explanation,
-} from './styles';
+} from "./styles";
 
 const KatieUfal = () => (
   <Section id="KatieUfal">
@@ -19,8 +19,9 @@ const KatieUfal = () => (
         <Logo src={LogoKatie} />
       </LogoLink>
       <Context>
-      Katie é um grupo formado por mulheres do Instituto de Computação da UFAL. 
-      Nosso objetivo é promover ações de apoio e incentivo às estudantes.
+        Katie é um grupo formado por mulheres do Instituto de Computação da
+        UFAL. Nosso objetivo é promover ações de apoio e incentivo às
+        estudantes.
       </Context>
     </Article>
     {/* <Statement>
