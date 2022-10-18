@@ -1,6 +1,6 @@
-import styled from 'styled-components/macro';
-import { fonts } from '../../assets/styles/typography';
-import { Subtitle, Pink, Text, Social } from '../../shared-ui/Typography';
+import styled from "styled-components/macro";
+import { fonts } from "../../assets/styles/typography";
+import { Subtitle, Pink, Text, Social } from "../../shared-ui/Typography";
 
 export const Article = styled.article`
   display: flex;

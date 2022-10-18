@@ -1,6 +1,6 @@
-import React from 'react';
-import LogoDigitalOcean from '../../assets/images/logo-digital-ocean.svg';
-import { legal, socialConnections } from '../../data/links';
+import React from "react";
+import LogoDigitalOcean from "../../assets/images/logo-digital-ocean.svg";
+import { legal, socialConnections } from "../../data/links";
 
 import {
   Tag,
@@ -11,7 +11,7 @@ import {
   MenuItem,
   MenuItemLink,
   LogoSocialNetworks,
-} from './styles';
+} from "./styles";
 
 export default function Footer() {
   return (

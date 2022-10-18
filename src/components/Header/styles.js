@@ -1,6 +1,6 @@
-import styled, { keyframes } from 'styled-components/macro';
-import { fonts } from '../../assets/styles/typography';
-import { colors } from '../../assets/styles/colors';
+import styled, { keyframes } from "styled-components/macro";
+import { fonts } from "../../assets/styles/typography";
+import { colors } from "../../assets/styles/colors";
 
 const puffInCenter = keyframes`
 from{
@@ -26,8 +26,8 @@ export const HeaderStyle = styled.header`
   position: fixed;
   width: 100%;
   height: 116px;
-  background-color: ${props =>
-    props.scroll > 0 ? '#170f1e54' : colors.primaryDark};
+  background-color: ${(props) =>
+    props.scroll > 0 ? "#170f1e54" : colors.primaryDark};
 
   @media (max-width: 507px) {
     height: 80px;
@@ -69,7 +69,7 @@ export const Logo = styled.img`
     animation: 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 0s 1 normal both running
       ${puffOutCenter};
   }
-  
+
   @media (min-width: 768px) and (max-width: 1024px) {
     width: 62%;
   }
@@ -80,7 +80,7 @@ export const Nav = styled.nav`
 
   @media (max-width: 1024px) {
     position: absolute;
-    display: ${props => (props.menuVisibility ? 'flex' : 'none')};
+    display: ${(props) => (props.menuVisibility ? "flex" : "none")};
     justify-content: center;
     width: 2%;
     top: 0;
@@ -100,7 +100,7 @@ export const NavList = styled.ul`
   list-style: none;
 
   @media (max-width: 1024px) {
-    display: ${props => (props.menuVisibility ? 'flex' : 'none')};
+    display: ${(props) => (props.menuVisibility ? "flex" : "none")};
     flex-direction: column;
     text-align: center;
   }
@@ -126,7 +126,7 @@ export const ListLink = styled.a`
     color: ${colors.primaryHighLight};
   }
 
-  &[href='${props => props.activeSection}'] {
+  &[href="${(props) => props.activeSection}"] {
     box-shadow: ${colors.neutralLight} 0px -5px 0px 0px inset;
     color: ${colors.neutral};
   }
@@ -160,15 +160,15 @@ const ToggleLine = styled.div`
 `;
 
 export const ToggleOne = styled(ToggleLine)`
-  transform: ${props =>
-    props.menuVisibility ? 'rotate(45deg) translate(7px, 7px)' : ''};
+  transform: ${(props) =>
+    props.menuVisibility ? "rotate(45deg) translate(7px, 7px)" : ""};
 `;
 
 export const ToggleTwo = styled(ToggleLine)`
-  opacity: ${props => (props.menuVisibility ? 0 : 1)};
+  opacity: ${(props) => (props.menuVisibility ? 0 : 1)};
 `;
 
 export const ToggleThree = styled(ToggleLine)`
-  transform: ${props =>
-    props.menuVisibility ? 'rotate(-45deg) translate(8px, -9px)' : ''};
+  transform: ${(props) =>
+    props.menuVisibility ? "rotate(-45deg) translate(8px, -9px)" : ""};
 `;

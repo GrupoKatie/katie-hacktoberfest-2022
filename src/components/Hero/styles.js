@@ -1,8 +1,8 @@
-import styled from 'styled-components/macro';
-import { colors } from '../../assets/styles/colors';
-import { fonts } from '../../assets/styles/typography';
-import { Section } from '../../shared-ui/Layout';
-import { Subtitle, Pink, Text } from '../../shared-ui/Typography';
+import styled from "styled-components/macro";
+import { colors } from "../../assets/styles/colors";
+import { fonts } from "../../assets/styles/typography";
+import { Section } from "../../shared-ui/Layout";
+import { Subtitle, Pink, Text } from "../../shared-ui/Typography";
 
 export const HeroSection = styled(Section)`
   padding-top: 100px;

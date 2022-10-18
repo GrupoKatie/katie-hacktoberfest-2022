@@ -1,6 +1,6 @@
-import React from 'react';
-import GitHub from '../../../assets/images/gitHub.svg';
-import Linkedin from '../../../assets/images/linkedIn.svg';
+import React from "react";
+import GitHub from "../../../assets/images/gitHub.svg";
+import Linkedin from "../../../assets/images/linkedIn.svg";
 import {
   Content,
   Title,
@@ -14,15 +14,15 @@ import {
   SocialContext,
   Social,
   Icon,
-} from '../../../shared-ui/Typography';
+} from "../../../shared-ui/Typography";
 
-const Session = ({ data, title = 'Directors', subtitle }) => (
+const Session = ({ data, title = "Directors", subtitle }) => (
   <Content>
     <Title>{title}</Title>
     <Function>{subtitle}</Function>
     <Cards>
       {data &&
-        data.map(user => (
+        data.map((user) => (
           <Card key={Math.random()}>
             <Photo src={user.photo} alt={user.name} />
             <Name>{user.name}</Name>

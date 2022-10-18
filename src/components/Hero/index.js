@@ -1,7 +1,7 @@
-import React from 'react';
-import Hacktoberfest from '../../assets/images/hacktoberfest2022.svg';
-import Participation from '../../assets/images/participation.svg';
-import { Pink, Social } from '../../shared-ui/Typography';
+import React from "react";
+import Hacktoberfest from "../../assets/images/hacktoberfest2022.svg";
+import Participation from "../../assets/images/participation.svg";
+import { Pink, Social } from "../../shared-ui/Typography";
 import {
   Statement,
   Logo,
@@ -9,7 +9,7 @@ import {
   Context,
   PinkStrong,
   HeroSection,
-} from './styles';
+} from "./styles";
 
 const Hero = () => (
   <HeroSection id="home">

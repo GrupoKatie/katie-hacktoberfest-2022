@@ -1,11 +1,11 @@
-import React from 'react';
-import Hacktoberfest from '../../assets/images/hacktoberfest2022.svg';
-import ParticipationPink from '../../assets/images/participationPink.svg';
-import Discord from '../../assets/images/btn.svg';
-import { connections } from '../../data/links';
-import { Social } from '../../shared-ui/Typography';
-import { Section } from '../../shared-ui/Layout';
-import { Logo } from '../Hero/styles';
+import React from "react";
+import Hacktoberfest from "../../assets/images/hacktoberfest2022.svg";
+import ParticipationPink from "../../assets/images/participationPink.svg";
+import Discord from "../../assets/images/btn.svg";
+import { connections } from "../../data/links";
+import { Social } from "../../shared-ui/Typography";
+import { Section } from "../../shared-ui/Layout";
+import { Logo } from "../Hero/styles";
 import {
   Statement,
   Top,
@@ -14,7 +14,7 @@ import {
   Article,
   Contact,
   Button,
-} from './styles';
+} from "./styles";
 
 const Hero = () => (
   <Section id="HacktoberFest">
