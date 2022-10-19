@@ -342,7 +342,7 @@ export default [
         photo:'https://avatars.githubusercontent.com/u/86088494?s=400&u=34c951dc3fb5b987cf15154067fc6cc0b747a413&v=4',
         name: 'Sara Silvestre',
         description: 'Sou uma estudante de design gráfico, apaixonada por tecnologia',
-        gitHub: '',
+        gitHub: 'https://github.com/Sara-Silvestre',
         linkedIn: '',
       },
     ],
