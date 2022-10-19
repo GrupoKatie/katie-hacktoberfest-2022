@@ -337,7 +337,14 @@ export default [
           'Programadora iOS ex aluna do Developer Academy, estudante do curso Ciência da Computação da UFPE.',
         gitHub: 'https://github.com/marina-barros',
         linkedIn: 'https://www.linkedin.com/in/marina-barros-80b582173/',
-      }
+      },
+      {
+        photo:'https://avatars.githubusercontent.com/u/86088494?s=400&u=34c951dc3fb5b987cf15154067fc6cc0b747a413&v=4',
+        name: 'Sara Silvestre',
+        description: 'Sou uma estudante de design gráfico, apaixonada por tecnologia',
+        gitHub: 'https://github.com/Sara-Silvestre',
+        linkedIn: 'https://www.linkedin.com/in/designsarasilvestre/',
+      },
     ],
   },
 ];
