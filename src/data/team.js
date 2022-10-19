@@ -343,7 +343,7 @@ export default [
         name: 'Sara Silvestre',
         description: 'Sou uma estudante de design gráfico, apaixonada por tecnologia',
         gitHub: 'https://github.com/Sara-Silvestre',
-        linkedIn: '',
+        linkedIn: 'https://www.linkedin.com/in/designsarasilvestre/',
       },
     ],
   },
